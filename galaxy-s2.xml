@@ -4,7 +4,7 @@
   <include name="base.xml"/>
 
   <default revision="refs/tags/android-4.0.4_r1.2"
-           remote="linaro"
+           remote="caf"
            sync-j="4" />
 
   <!-- Gonk specific things and forks -->
@@ -37,7 +37,7 @@
   <project path="external/flac" name="platform/external/flac" />
   <project path="external/freetype" name="platform/external/freetype" />
   <project path="external/giflib" name="platform/external/giflib" />
-  <project path="external/gtest" name="platform/external/gtest" remote="linaro" revision="8c212ebe53bb2baab3575f03069016f1fb11e449" />
+  <project path="external/gtest" name="platform/external/gtest" remote="caf" revision="8c212ebe53bb2baab3575f03069016f1fb11e449" />
   <project path="external/harfbuzz" name="platform/external/harfbuzz" />
   <project path="external/icu4c" name="platform/external/icu4c" />
   <project path="external/iptables" name="platform/external/iptables" />
