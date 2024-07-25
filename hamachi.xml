@@ -17,90 +17,90 @@
 
   <!-- Stock Android things -->
   <project path="abi/cpp" name="androidaosp/platform-abi-cpp" />
-  <project path="bionic" name="bi0id/platform-bionic" />
-  <project path="bootable/recovery" name="bi0id/platform-bootable-recovery" />
-  <project path="development" name="codeaurora-unofficial/platform-development/" revision="/caf/b2g_ics_1.2" />
-  <project path="device/common" name="bi0id/device-common" />
-  <project path="device/sample" name="bi0id/device-sample" />
+  <project path="bionic" name="bi0id/platform-bionic" revision="main" />
+  <project path="bootable/recovery" name="bi0id/platform-bootable-recovery" revision="main" />
+  <project path="development" name="codeaurora-unofficial/platform-development/" revision="caf/b2g_ics_1.2" />
+  <project path="device/common" name="bi0id/device-common" revision="main" />
+  <project path="device/sample" name="bi0id/device-sample" revision="main" />
   <project path="external/apriori" name="platform_external_apriori" remote="b2g" />
-  <project path="external/bluetooth/bluez" name="bi0id/platform-external-bluetooth-bluez" />
-  <project path="external/bluetooth/glib" name="bi0id/platform-external-bluetooth-glib" />
-  <project path="external/bluetooth/hcidump" name="bi0id/platform-external-bluetooth-hcidump" />
-  <project path="external/bsdiff" name="xin3liang/platform_external_bsdiff" />
-  <project path="external/bzip2" name="xin3liang/platform_external_bzip2" />
+  <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" remote="gitlab" />
+  <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" remote="gitlab" />
+  <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" remote="gitlab" />
+  <project path="external/bsdiff" name="platform/external/bsdiff" remote="gitlab" />
+  <project path="external/bzip2" name="platform/external/bzip2" remote="gitlab" />
   <project path="external/dbus" name="platform_external_dbus" remote="b2g" />
-  <project path="external/dhcpcd" name="codeaurora-unofficial/platform-external-dhcpcd" />
-  <project path="external/dnsmasq" name="xin3liang/platform_external_dnsmasq" />
+  <project path="external/dhcpcd" name="platform/external/dhcpcd" remote="gitlab" />
+  <project path="external/dnsmasq" name="platform/external/dnsmasq" remote="gitlab" />
   <project path="external/elfcopy" name="platform_external_elfcopy" remote="b2g" />
   <project path="external/elfutils" name="platform_external_elfutils" remote="b2g" />
-  <project path="external/e2fsprogs" name="codeaurora-unofficial/platform-external-e2fsprogs" />
-  <project path="external/expat" name="aosp-mirror/platform_external_expat" />
-  <project path="external/fdlibm" name="xin3liang/platform_external_fdlibm" />
-  <project path="external/flac" name="codeaurora-unofficial/platform-external-flac" />
-  <project path="external/freetype" name="xin3liang/platform_external_freetype" />
-  <project path="external/giflib" name="xin3liang/platform_external_giflib" />
+  <project path="external/e2fsprogs" name="platform/external/e2fsprogs" remote="gitlab" />
+  <project path="external/expat" name="platform/external/expat" remote="gitlab" />
+  <project path="external/fdlibm" name="platform/external/fdlibm" remote="gitlab" />
+  <project path="external/flac" name="platform/external/flac" remote="gitlab" />
+  <project path="external/freetype" name="platform/external/freetype" remote="gitlab" />
+  <project path="external/giflib" name="platform/external/giflib" remote="gitlab" />
   <project path="external/gtest" name="platform/external/gtest" remote="gitlab" revision="8c212ebe53bb2baab3575f03069016f1fb11e449" />
-  <project path="external/harfbuzz" name="xin3liang/platform_external_harfbuzz" />
-  <project path="external/icu4c" name="xin3liang/platform_external_icu4c" />
-  <project path="external/iptables" name="xin3liang/platform_external_iptables" />
-  <project path="external/jpeg" name="codeaurora-unofficial/platform-external-jpeg" />
-  <project path="external/libgsm" name="xin3liang/platform_external_libgsm" />
-  <project path="external/liblzf" name="xin3liang/platform_external_liblzf" />
-  <project path="external/libnfc-nxp" name="codeaurora-unofficial/platform-external-libnfc-nxp" />
-  <project path="external/libnl-headers" name="xin3liang/platform_external_libnl-headers" />
-  <project path="external/libpng" name="platform_external_libpng" remote="b2g" />
-  <project path="external/libvpx" name="xin3liang/platform_external_libvpx" />
-  <project path="external/llvm" name="xin3liang/platform_external_llvm" />
-  <project path="external/mksh" name="xin3liang/platform_external_mksh" />
-  <project path="external/openssl" name="codeaurora-unofficial/platform-external-openssl" />
-  <project path="external/protobuf" name="xin3liang/platform_external_protobuf" />
-  <project path="external/safe-iop" name="xin3liang/platform_external_safe-iop" />
+  <project path="external/harfbuzz" name="platform/external/harfbuzz" remote="gitlab" />
+  <project path="external/icu4c" name="platform/external/icu4c" remote="gitlab" />
+  <project path="external/iptables" name="platform/external/iptables" remote="gitlab" />
+  <project path="external/jpeg" name="platform/external/jpeg" remote="gitlab" />
+  <project path="external/libgsm" name="platform/external/libgsm" remote="gitlab" />
+  <project path="external/liblzf" name="platform/external/liblzf" remote="gitlab" />
+  <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" remote="gitlab" />
+  <project path="external/libnl-headers" name="platform/external/libnl-headers" remote="gitlab" />
+  <project path="external/libpng" name="platform/external/libpng" remote="gitlab" />
+  <project path="external/libvpx" name="platform/external/libvpx" remote="gitlab" />
+  <project path="external/llvm" name="platform_external/llvm" remote="gitlab" />
+  <project path="external/mksh" name="platform/external/mksh" remote="gitlab" />
+  <project path="external/openssl" name="platform/external/openssl" remote="gitlab" />
+  <project path="external/protobuf" name="platform/external/protobuf" remote="gitlab" />
+  <project path="external/safe-iop" name="platform/external/safe-iop" remote="gitlab" />
   <project path="external/screencap-gonk" name="screencap-gonk" remote="b2g" />
-  <project path="external/skia" name="codeaurora-unofficial/platform-external-skia" />
-  <project path="external/sonivox" name="xin3liang/platform_external_sonivox" />
-  <project path="external/speex" name="xin3liang/platform_external_speex" />
-  <project path="external/sqlite" name="xin3liang/platform_external_sqlite" />
-  <project path="external/stlport" name="xin3liang/platform_external_stlport" />
-  <project path="external/strace" name="xin3liang/platform_external_strace" />
-  <project path="external/svox" name="platform/external/svox" remote="gitlab" revision="ics_strawberry" />
+  <project path="external/skia" name="platform/external/skia" remote="gitlab" />
+  <project path="external/sonivox" name="platform/external/sonivox" remote="gitlab" />
+  <project path="external/speex" name="platform/external/speex" remote="gitlab" />
+  <project path="external/sqlite" name="platform/external/sqlite" remote="gitlab" />
+  <project path="external/stlport" name="platform/external/stlport" remote="gitlab" />
+  <project path="external/strace" name="platform/external/strace" remote="gitlab" />
+  <project path="external/svox" name="platform/external/svox" remote="gitlab" />
   <project path="external/tagsoup" name="xin3liang/platform_external_tagsoup" />
-  <project path="external/tinyalsa" name="codeaurora-unofficial/platform-external-tinyalsa" />
-  <project path="external/tremolo" name="xin3liang/platform_external_tremolo" />
+  <project path="external/tinyalsa" name="platform/external/tinyalsa" remote="gitlab" />
+  <project path="external/tremolo" name="platform/external/tremolo" remote="gitlab" />
   <project path="external/unbootimg" name="unbootimg" remote="b2g" />
-  <project path="external/webp" name="xin3liang/platform_external_webp" />
-  <project path="external/webrtc" name="platform_external_webrtc" remote="b2g" />
-  <project path="external/wpa_supplicant" name="xin3liang/platform_external_wpa_supplicant" />
+  <project path="external/webp" name="platform/external/webp" />
+  <project path="external/webrtc" name="platform/external/webrtc" remote="gitlab" />
+  <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant" />
   <project path="external/hostap" name="platform/external/hostap" remote="gitlab" />
-  <project path="external/zlib" name="aosp-mirror/platform_external_zlib" />
-  <project path="external/yaffs2" name="xin3liang/platform_external_yaffs2" />
-  <project path="frameworks/base" name="platform_frameworks_base" remote="b2g" revision="b2g_ics_strawberry" />
+  <project path="external/zlib" name="platform/external/zlib" />
+  <project path="external/yaffs2" name="platform/external/yaffs2" />
+  <project path="frameworks/base" name="platform/frameworks/base" revision="b2g_ics_1.2" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" remote="gitlab" />
   <project path="frameworks/support" name="platform/frameworks/support" remote="gitlab" />
-  <project path="hardware/libhardware" name="codeaurora-unofficial/platform-hardware-libhardware" revision="caf/b2g_ics_1.2" />
-  <project path="hardware/libhardware_legacy" name="codeaurora-unofficial/platform-hardware-libhardware_legacy" revision="caf/b2g_ics_1.2" />
-  <project path="libcore" name="codeaurora-unofficial/platform-libcore" />
-  <project path="ndk" name="xin3liang/platform_ndk" />
-  <project path="prebuilt" name="platform_prebuilt" remote="b2g" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="DevSH01/arm-linux-androideabi-4.8" />
-  <project path="system/bluetooth" name="xin3liang/platform_system_bluetooth" />
-  <project path="system/core" name="codeaurora-unofficial/platform-system-core" revision="caf/b2g_ics_1.2" />
-  <project path="system/extras" name="codeaurora-unofficial/platform-system-extras" />
-  <project path="system/media" name="codeaurora-unofficial/platform-system-media" />
-  <project path="system/netd" name="codeaurora-unofficial/platform-system-netd" revision="caf/b2g_ics_1.2" />
-  <project path="system/vold" name="android-system-vold" remote="b2g" />
+  <project path="hardware/libhardware" name="platform/hardware/libhardware" remote="gitlab" revision="b2g_ics_1.2" />
+  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" remote="gitlab" revision="b2g_ics_1.2" />
+  <project path="libcore" name="platform/libcore" remote="gitlab" />
+  <project path="ndk" name="platform/ndk" remote="gitlab" />
+  <project path="prebuilt" name="platform/prebuilt" remote="gitlab" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="DevSH01/arm-linux-androideabi-4.8" revision="main" />
+  <project path="system/bluetooth" name="platform/system/bluetooth" remote="gitlab" />
+  <project path="system/core" name="platform/system/core" remote="gitlab" revision="b2g_ics_1.2" />
+  <project path="system/extras" name="platform/system/extras" remote="gitlab" />
+  <project path="system/media" name="platform/system/media" remote="gitlab"/>
+  <project path="system/netd" name="platform/system/netd" remote="gitlab" revision="b2g_ics_1.2" />
+  <project path="system/vold" name="android/system/vold" remote="gitlab" revision="b2g_ics_1.2" />
 
   <!-- hamachi specific things -->
-  <project path="device/qcom/b2g_common" name="B2G-CAF/android_device_qcom_b2g_common" />
-  <project path="external/jsmin" name="bi0id/jsmin" />
-  <project path="device/qcom/common" name="device_qcom_common" remote="b2g" />
+  <project path="device/qcom/b2g_common" name="B2G-CAF/android_device_qcom_b2g_common" revision="b2g_kk_3.5" />
+  <project path="external/jsmin" name="bi0id/jsmin" revision="main" />
+  <project path="device/qcom/common" name="device/qcom/common" remote="gitlab" />
   <project path="device/qcom/msm7627a" name="platform/vendor/qcom/msm7627a" remote="gitlab" revision="b2g_ics_1.2" />
   <project path="device/qcom/hamachi" name="android-device-hamachi" remote="b2g" revision="master" />
-  <project path="kernel" name="codeaurora-unofficial/kernel-msm-3.10" revision="caf/b2g_ics_1.2" />
+  <project path="kernel" name="kernel/msm" remote="gitlab" revision="b2g_ics_1.2" />
   <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" remote="gitlab" revision="b2g_ics_1.2" />
-  <project path="hardware/qcom/display" name="codeaurora-unofficial/platform-hardware-qcom-display" revision="caf/b2g_ics_1.2" />
-  <project path="hardware/qcom/media" name="codeaurora-unofficial/platform-hardware-qcom-media" revision="caf/b2g_ics_1.2" />
-  <project path="hardware/qcom/gps" name="codeaurora-unofficial/platform-hardware-qcom-gps" />
+  <project path="hardware/qcom/display" name="platform/hardware/qcom/display" remote="gitlab" revision="b2g_ics_1.2" />
+  <project path="hardware/qcom/media" name="platform/hardware/qcom/media" remote="gitlab" revision="b2g_ics_1.2" />
+  <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" remote="gitlab" />
   <project path="hardware/msm7k" name="platform/hardware/msm7k" remote="gitlab" revision="b2g_ics_1.2" />
   <project path="vendor/qcom/opensource/omx/mm-core" name="platform/vendor/qcom-opensource/omx/mm-core" remote="gitlab" />
-  <project path="hardware/ril" name="codeaurora-unofficial/platform-hardware-ril" revision="caf/b2g_ics_1.2" />
+  <project path="hardware/ril" name="platform/hardware/ril" remote="gitlab" revision="b2g_ics_1.2" />
 </manifest>
