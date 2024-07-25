@@ -16,23 +16,23 @@
   <project path="external/apitrace" name="apitrace" remote="apitrace" revision="refs/tags/6.1" />
 
   <!-- Stock Android things -->
-  <project path="abi/cpp" name="androidaosp/platform-abi-cpp" />
-  <project path="bionic" name="bi0id/platform-bionic" revision="main" />
+  <project path="abi/cpp" name="platform/abi/cpp" remote="gitlab" />
+  <project path="bionic" name="platform/bionic" remote="gitlab" />
   <project path="bootable/recovery" name="bi0id/platform-bootable-recovery" revision="main" />
   <project path="development" name="codeaurora-unofficial/platform-development/" revision="caf/b2g_ics_1.2" />
   <project path="device/common" name="bi0id/device-common" revision="main" />
   <project path="device/sample" name="bi0id/device-sample" revision="main" />
-  <project path="external/apriori" name="platform_external_apriori" remote="b2g" />
+  <project path="external/apriori" name="platform_external_apriori" remote="b2g" revision="master" />
   <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" remote="gitlab" />
   <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" remote="gitlab" />
   <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" remote="gitlab" />
   <project path="external/bsdiff" name="platform/external/bsdiff" remote="gitlab" />
   <project path="external/bzip2" name="platform/external/bzip2" remote="gitlab" />
-  <project path="external/dbus" name="platform_external_dbus" remote="b2g" />
+  <project path="external/dbus" name="platform/external/dbus" remote="gitlab" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" remote="gitlab" />
   <project path="external/dnsmasq" name="platform/external/dnsmasq" remote="gitlab" />
-  <project path="external/elfcopy" name="platform_external_elfcopy" remote="b2g" />
-  <project path="external/elfutils" name="platform_external_elfutils" remote="b2g" />
+  <project path="external/elfcopy" name="platform_external_elfcopy" remote="b2g" revision="master" />
+  <project path="external/elfutils" name="platform_external_elfutils" remote="b2g" revision="master" />
   <project path="external/e2fsprogs" name="platform/external/e2fsprogs" remote="gitlab" />
   <project path="external/expat" name="platform/external/expat" remote="gitlab" />
   <project path="external/fdlibm" name="platform/external/fdlibm" remote="gitlab" />
@@ -55,7 +55,7 @@
   <project path="external/openssl" name="platform/external/openssl" remote="gitlab" />
   <project path="external/protobuf" name="platform/external/protobuf" remote="gitlab" />
   <project path="external/safe-iop" name="platform/external/safe-iop" remote="gitlab" />
-  <project path="external/screencap-gonk" name="screencap-gonk" remote="b2g" />
+  <project path="external/screencap-gonk" name="screencap-gonk" remote="b2g" revision="master"/>
   <project path="external/skia" name="platform/external/skia" remote="gitlab" />
   <project path="external/sonivox" name="platform/external/sonivox" remote="gitlab" />
   <project path="external/speex" name="platform/external/speex" remote="gitlab" />
@@ -66,7 +66,7 @@
   <project path="external/tagsoup" name="xin3liang/platform_external_tagsoup" />
   <project path="external/tinyalsa" name="platform/external/tinyalsa" remote="gitlab" />
   <project path="external/tremolo" name="platform/external/tremolo" remote="gitlab" />
-  <project path="external/unbootimg" name="unbootimg" remote="b2g" />
+  <project path="external/unbootimg" name="unbootimg" remote="b2g" revision="master" />
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" remote="gitlab" />
   <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant" />
