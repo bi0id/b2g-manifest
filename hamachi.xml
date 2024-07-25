@@ -4,7 +4,7 @@
   <include name="base.xml"/>
 
   <default revision="b2g/ics_strawberry"
-           remote="linaro"
+           remote="gitlab"
            sync-j="4" />
 
   <!-- Gonk specific things and forks -->
