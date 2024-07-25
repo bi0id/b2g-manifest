@@ -9,7 +9,7 @@
   <remote name="apitrace" fetch="https://github.com/apitrace/" />
   <remote name="b2g" fetch="https://github.com/mozilla-b2g/" />
   <remote name="caf" fetch="https://git.codelinaro.org/clo/la/" />
-  <remote name="linaro" fetch="https://android-git.linaro.org/" />
+  <remote name="linaro" fetch="https://git.codelinaro.org/clo/lf/b2g" />
   <remote name="github" fetch="https://github.com/" />
   <remote name="gitlab" fetch="https://gitlab.com/codeaurora-mirror/quic/la/" />
   <remote name="mozilla" fetch="https://github.com/mozilla/" />
