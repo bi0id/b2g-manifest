@@ -11,6 +11,7 @@
   <remote name="caf" fetch="https://git.codelinaro.org/clo/la/" />
   <remote name="linaro" fetch="https://android-git.linaro.org/" />
   <remote name="github" fetch="https://github.com/" />
+  <remote name="gitlab" fetch="https://gitlab.com/" />
   <remote name="mozilla" fetch="https://github.com/mozilla/" />
 
   <!--
