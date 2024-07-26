@@ -18,7 +18,7 @@
   <!-- Stock Android things -->
   <project path="abi/cpp" name="platform/abi/cpp" remote="gitlab" />
   <project path="bionic" name="platform/bionic" remote="gitlab" />
-  <project path="bootable/recovery" name="bi0id/platform-bootable-recovery" revision="main" />
+  <project path="bootable/recovery" name="platform/bootable/recovery" remote="gitlab" />
   <project path="development" name="codeaurora-unofficial/platform-development/" revision="caf/b2g_ics_1.2" />
   <project path="device/common" name="bi0id/device-common" revision="main" />
   <project path="device/sample" name="bi0id/device-sample" revision="main" />
@@ -69,7 +69,7 @@
   <project path="external/unbootimg" name="unbootimg" remote="b2g" revision="master" />
   <project path="external/webp" name="platform/external/webp" remote="gitlab" />
   <project path="external/webrtc" name="platform/external/webrtc" remote="gitlab" />
-  <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant.git" remote="gitlab"/>
+  <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant" remote="gitlab"/>
   <project path="external/hostap" name="platform/external/hostap" remote="gitlab" />
   <project path="external/zlib" name="platform/external/zlib" remote="gitlab" />
   <project path="external/yaffs2" name="platform/external/yaffs2" remote="gitlab" />
