@@ -69,7 +69,7 @@
   <project path="external/unbootimg" name="unbootimg" remote="b2g" revision="master" />
   <project path="external/webp" name="platform/external/webp" remote="gitlab" />
   <project path="external/webrtc" name="platform/external/webrtc" remote="gitlab" />
-  <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant" remote="gitlab"/>
+  <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant.git" remote="gitlab"/>
   <project path="external/hostap" name="platform/external/hostap" remote="gitlab" />
   <project path="external/zlib" name="platform/external/zlib" remote="gitlab" />
   <project path="external/yaffs2" name="platform/external/yaffs2" remote="gitlab" />
